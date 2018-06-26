@@ -1,0 +1,26 @@
+{{#> page}}
+    {{#*inline "main"}}
+        <header id="hero">
+          <div class="site-title site-container">
+            <h1 class="header">Enough Already,
+              <br>I'm done.</h1>
+            <h2 class="subheader">A Retirement Gathering In Nisswa.</h2>
+          </div>
+        </header>
+        <script>var gallery_data = {
+          IMAGE_PATH: "/assets/img/gallery/",
+          GALLERY_IMAGES: {{{ images }}}
+        };</script>
+          <section id="page" class="site">
+              <div id="content">
+                <div class="gallery"></div>
+                <div class="download">
+                  <a class="button" href="/assets/img/nisswa-2014.zip" download>Download All</a>
+                </div>
+              </div>
+          </section>
+          <footer>
+              <div class="site-container">&copy; Steven Klein</div>
+          </footer>
+    {{/inline}}
+{{/page}}
