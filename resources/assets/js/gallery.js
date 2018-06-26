@@ -25,7 +25,7 @@ let ImageThumb = (function () {
       m("a", {
         title: `${ctrl.attrs.image.full}`,
         "data-fancybox": "gallery",
-        href: `${ctrl.attrs.path}${ctrl.attrs.image.full}`
+        href: `.${ctrl.attrs.path}${ctrl.attrs.image.full}`
       }, [
         m("img", {
           src: `.${ctrl.attrs.path}${ctrl.attrs.image.thumb}`
