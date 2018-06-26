@@ -16,6 +16,7 @@
         "deploy:dev": "cross-env NODE_ENV=production npm run build",
         "js": "rollup -c rollup.config.js",
         "postversion": "git push && git push --tags",
+        "publish": "bash ./publish.sh",
         "serve": "browser-sync start -c browsersync.config.js",
         "test": "cross-env NODE_ENV=production npm run build",
         "templates": "gulp",
