@@ -28,7 +28,7 @@ let ImageThumb = (function () {
         href: `${ctrl.attrs.path}${ctrl.attrs.image.full}`
       }, [
         m("img", {
-          src: `${ctrl.attrs.path}${ctrl.attrs.image.thumb}`
+          src: `.${ctrl.attrs.path}${ctrl.attrs.image.thumb}`
         })
       ])
     ]) : null;
