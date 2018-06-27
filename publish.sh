@@ -1,4 +1,3 @@
-git checkout production
 npm version patch
 npm run build:prod
 cd httpdocs
